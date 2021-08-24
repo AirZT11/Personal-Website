@@ -5,11 +5,11 @@ export const Section = styled.section`
   flex-direction: ${(props) => props.row ? "row" : "column" };
   padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
   margin: 0 auto;
-  max-width: 1040px;
+  max-width: 1200px;
   box-sizing: content-box;
   position: relative;
   overflow: hidden;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
 
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;

@@ -8,6 +8,10 @@ export const Container = styled.div`
   grid-column-gap: 2rem;
   padding: 1rem;
   padding-top: 2rem;
+  // position: fixed;
+  // top: 0;
+  // left: 0;
+  // width: 75%;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
@@ -16,6 +20,9 @@ export const Container = styled.div`
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
   }
+`;
+export const Span = styled.span`
+  font-size: 2rem;
 `;
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
