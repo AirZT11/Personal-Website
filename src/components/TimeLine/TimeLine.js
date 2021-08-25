@@ -48,7 +48,7 @@ const Timeline = () => {
         <SectionDivider /><br />
         <SectionTitle>About Me</SectionTitle>
         <SectionText>
-        I am a self-taught web developer with experience as a full-stack developer. I started my journey into code about a year ago after transitioning out of the music industry, where I worked as an audio engineer/music producer. As a developer, I am interested in developing web apps that encompass my interests while being useful for the general public. 
+        I am a self-taught web developer with experience as a full-stack developer. I started my journey into code about a year ago after transitioning out of the music industry, where I worked as an audio engineer/music producer. As a developer, I am interested in developing web apps that encompass my interests while being useful to the general public. 
         <br /><br />
         When I am not developing, I love making music, climbing, and exploring the food scene in NYC. Feel free to reach out if you would like to connect!
         </SectionText>
